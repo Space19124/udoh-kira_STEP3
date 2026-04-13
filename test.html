@@ -1,0 +1,90 @@
+<!doctype html>
+    <html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" contest="width=device-width, intial-scale=1.0" >
+        <link rel="stylesheet", href="test.css">
+    <body>
+        <header><h1>世界一甘い店</h1></header>
+        <div class="container">
+            <nav class="sidebar">          
+                <ul>
+                    <li><a href="#section1">トップ</a> </li>
+                    <li><a href="#section2">新着情報</a></li>
+                    <li><a href="#section3">おすすめのスイーツ</a></li>
+                    <li><a href="#section4">お問い合わせ</a></li>
+                </ul>
+            </nav>    
+            <main class="content">
+                <section id="section1"><h2>トップ</h2></section>
+                    <p>世界一甘い店　〇〇店</p>
+                    <p>〒xxx-xxxx</p>
+                    <p>  〇〇県✕✕市△△町xx-xx</p>
+                    <img src="cafe out.jpg" alt="世界一甘い店　〇〇店" width="200">
+                <section id="section2"><h2>新着情報</h2></section>
+                <p>2026/4/10</p>
+                <p>本日から新メニュー　～イチゴバナナチョコパフェ～　を追加いたしました</p>
+                <section id="section3"><h2>おすすめのスイーツ</h2></section>
+                <h3>当店の一番人気～イチゴクレープパフェ～　¥1320（税込）</h3>
+                <img src="image_40221f98.png" alt="イチゴクレープパフェ" width="300">
+                <p>グラスの中にイチゴとクリームの層を重ね、その上に焼きたてのクレープを<br>
+                    あしらった贅沢な仕上がりをイメージしています。</p>
+                    <br>
+                    <h3>当店新作メニュー　～イチゴバナナチョコパフェ～　¥1100（税込）</h3>
+                    <img src="image_82f48dee.png" alt="イチゴバナナチョコパフェ" width="300">
+                    <p>グラスの底に沈んだ濃厚なチョコソース、フレッシュなイチゴと熟したバナナのコントラスト、<br>
+                        そしてとろけるようなバニラとチョコのアイスクリームを再現しています。</p>
+                        <p>これ以外にも様々なスイーツがございますので、ぜひご来店していただき、お召し上がりください。</p>
+                <section id="section4"><h2>お問い合わせ</h2></section>
+                <div class="form-container">
+                    <form action="#" method="post">
+                        <table border="2">
+                            <tr>
+                                <th><label id=name>お名前</label></th>
+                                <td><input type="text" id="name" name="name"> </td>
+                            </tr>
+                            <tr>
+                                <th>近くのお店</th>
+                                <td><select id="shop" name="shop">
+                                    <option value="Hokkaido,Tohoku">北海道・東北</option>
+                                    <option value="Kanto">関東</option>
+                                    <option value="Chubu">中部</option>
+                                    <option value="Kinki">近畿</option>
+                                    <option value="Chugoku,Shikoku">中国・四国</option>
+                                    <option value="kyushu">九州</option>
+                                    </select>      
+                                </td>
+                            </tr>
+                            <tr> 
+                                <th><label id="tel">電話</label></th>
+                                <td><input type="tel" id="tel" name="tel"></td>
+                            </tr>
+                            <tr>
+                                <th><label id="tel number">電話番号</label></th>
+                                <td><input type="tel" id="tel number" name="tel number"></td>
+                            </tr>
+                            <tr>
+                                <th><label id="email">メールアドレス</label></th>
+                                <td><input type="email" id="email" name="email"></td>
+                            </tr>
+                            <tr>
+                                <th><label id="question A">お問い合わせ種別</label></th>
+                                <td><input type="radio" id="option1"><label id="option1">商品について</label>
+                                    <input type="radio" id="option2"><label id="option2">従業員について</label>
+                                </td>
+                            </tr> 
+                            <tr>
+                                <th><label id="option B">お問い合わせ内容</label></th>
+                                <td><textarea id="option B" rows="4" cols="40" placeholder="詳細を入力してください"></textarea></td>
+                            </tr>
+                        </table>  <br>
+                        <div class="submit-btn">
+                            <button type="submit">送信</button>
+                        </div>
+                    </form>
+                </div>        
+            </main>
+        </div>    
+            <footer class="right-container">&copy; the sweetest shop of the world 2026.All RIght Reserved.</footer>
+    </body>
+</html>

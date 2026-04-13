@@ -1,0 +1,44 @@
+body
+{ font-family:"yu gothic" , "helvetica" , "sans-serif";
+background-color:#faf8f5;
+color:#333;
+line-height:1.6;
+padding:0;
+margin:0;}
+main,header, footer, section, aside, nav {padding: 20px;}
+header
+{background-color:pink;
+    text-align:center;
+    color:white;
+}
+.container {display:flex;
+min-height:80vh;}
+
+.sidebar {background-color:rgb(253, 253, 128);
+width:200px;}
+.sidebar ul {list-style-type:disc;
+padding-left:20px}
+.sidebar a {
+    color:blue;
+    text-decoration:underline;
+    line-height:2;}
+.sidebar a:hover{color:rgb(2, 2, 73);}
+
+.content { background-color:#ffe4c4;
+    flex:1;
+    padding:40px;
+    min-height: calc(100vh -50px);}
+
+    
+table {border-radius:4px;
+border-collapse:collapse;}
+
+.submit-btn {align-items:center;
+}
+
+footer {
+background-color:grey;
+text-align:center;
+color:white;
+position:sticky;
+bottom:0;}
